@@ -38,7 +38,7 @@ app.set("view engine", "handlebars");
 
 // Database configuration with mongoose
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://heroku_8zrc4bd8:emtb5i8sbeoc6tr82mp425m6bu@ds215709.mlab.com:15709/heroku_8zrc4bd8", {
+mongoose.connect("mongodb://heroku_jvhwpk72:k0n9fi7j2is7q16dikgqe1meed@ds147668.mlab.com:47668/heroku_jvhwpk72", {
   useMongoClient: true
 });
 
